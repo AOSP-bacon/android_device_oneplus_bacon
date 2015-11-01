@@ -147,7 +147,7 @@ PRODUCT_COPY_FILES += \
 
 # IO Scheduler
 PRODUCT_PROPERTY_OVERRIDES += \
-    sys.io.scheduler=bfq
+    sys.io.scheduler=deadline
 
 # IPC router config
 PRODUCT_COPY_FILES += \
